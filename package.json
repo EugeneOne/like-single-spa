@@ -2,21 +2,21 @@
   "name": "like-single-spa",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/like-single-spa.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EugeneOne/like-single-spa.git"
   },
-  "script": {
+  "scripts": {
     "build:dev": "rollup -c",
     "serve": "SERVE=true rollup -c -w"
   },
   "browserslist": [
-      "ie >=11",
-      "last 4 Safari major versions",
-      "last 10 Chrome major versions",
-      "last 10 Firefox major versions",
-      "last 4 Edge major versions"
+    "ie >=11",
+    "last 4 Safari major versions",
+    "last 10 Chrome major versions",
+    "last 10 Firefox major versions",
+    "last 4 Edge major versions"
   ],
   "keywords": [],
   "author": "",
